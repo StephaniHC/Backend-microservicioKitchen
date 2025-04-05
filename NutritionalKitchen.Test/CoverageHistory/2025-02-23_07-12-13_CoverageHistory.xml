@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2025-02-23_07-12-13" tag="">
+  <assembly name="NutritionalKitchen.Application">
+    <class name="NutritionalKitchen.Application.Extensions" coveredlines="12" coverablelines="12" totallines="35" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Application.Ingredients.CreateIngredient.CreateCommandHandler" coveredlines="14" coverablelines="14" totallines="38" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Application.Ingredients.CreateIngredient.CreateIngredientCommand" coveredlines="3" coverablelines="3" totallines="13" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Application.Ingredients.GetIngredients.GetIngredientsQuery" coveredlines="1" coverablelines="1" totallines="11" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Application.Ingredients.GetIngredients.IngredientDto" coveredlines="2" coverablelines="2" totallines="14" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Application.KitchenManager.CreateKitchenManager.CreateCommandHandler" coveredlines="14" coverablelines="14" totallines="37" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Application.KitchenManager.CreateKitchenManager.CreateKitchenManagerCommand" coveredlines="1" coverablelines="1" totallines="12" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Application.KitchenManager.GetKitchenManager.GetKitchenManagerQuery" coveredlines="1" coverablelines="1" totallines="11" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Application.KitchenManager.GetKitchenManager.KitchenManagerDto" coveredlines="3" coverablelines="3" totallines="16" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="NutritionalKitchen.Application.Label.CreateLabel.CreateCommandHandler" coveredlines="14" coverablelines="14" totallines="37" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Application.Label.CreateLabel.CreateLabelCommand" coveredlines="1" coverablelines="1" totallines="13" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Application.Label.GetLabel.GetLabelQuery" coveredlines="1" coverablelines="1" totallines="12" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Application.Label.GetLabel.LabelDto" coveredlines="6" coverablelines="6" totallines="18" coveredbranches="0" totalbranches="0" coveredcodeelements="6" totalcodeelements="6" />
+    <class name="NutritionalKitchen.Application.Package.CreatePackage.CreateCommandHandler" coveredlines="14" coverablelines="14" totallines="37" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Application.Package.CreatePackage.CreateIPackageCommand" coveredlines="1" coverablelines="1" totallines="13" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Application.Package.GetPackages.GetPackageQuery" coveredlines="1" coverablelines="1" totallines="12" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Application.Package.GetPackages.PackageDto" coveredlines="4" coverablelines="4" totallines="17" coveredbranches="0" totalbranches="0" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="NutritionalKitchen.Application.Recipe.CreateRecipe.CreateCommandHandler" coveredlines="14" coverablelines="14" totallines="37" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Application.Recipe.CreateRecipe.CreateRecipeCommand" coveredlines="1" coverablelines="1" totallines="11" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Application.Recipe.GetRecipe.GetRecipeQuery" coveredlines="1" coverablelines="1" totallines="12" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Application.Recipe.GetRecipe.RecipeDto" coveredlines="3" coverablelines="3" totallines="15" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+  </assembly>
+  <assembly name="NutritionalKitchen.Domain">
+    <class name="NutritionalKitchen.Domain.Abstractions.AggregateRoot" coveredlines="3" coverablelines="3" totallines="15" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Domain.Abstractions.Entity" coveredlines="8" coverablelines="8" totallines="22" coveredbranches="2" totalbranches="2" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Domain.Ingredients.IngredientFactory" coveredlines="9" coverablelines="9" totallines="26" coveredbranches="4" totalbranches="4" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Domain.Ingredients.Ingredients" coveredlines="11" coverablelines="11" totallines="25" coveredbranches="2" totalbranches="2" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="NutritionalKitchen.Domain.KitchenManager.KitchenManager" coveredlines="20" coverablelines="20" totallines="37" coveredbranches="4" totalbranches="4" coveredcodeelements="6" totalcodeelements="6" />
+    <class name="NutritionalKitchen.Domain.KitchenManager.KitchenManagerFactory" coveredlines="12" coverablelines="12" totallines="32" coveredbranches="6" totalbranches="6" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Domain.Package.Label" coveredlines="31" coverablelines="31" totallines="49" coveredbranches="6" totalbranches="6" coveredcodeelements="10" totalcodeelements="10" />
+    <class name="NutritionalKitchen.Domain.Package.LabelFactory" coveredlines="15" coverablelines="15" totallines="38" coveredbranches="8" totalbranches="8" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Domain.Package.Package" coveredlines="17" coverablelines="17" totallines="32" coveredbranches="2" totalbranches="2" coveredcodeelements="6" totalcodeelements="6" />
+    <class name="NutritionalKitchen.Domain.Package.PackageFactory" coveredlines="15" coverablelines="15" totallines="38" coveredbranches="8" totalbranches="8" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Domain.Recipe.IngredientRecipe" coveredlines="33" coverablelines="33" totallines="59" coveredbranches="14" totalbranches="14" coveredcodeelements="8" totalcodeelements="8" />
+    <class name="NutritionalKitchen.Domain.Recipe.IngredientRecipeFactory" coveredlines="18" coverablelines="18" totallines="42" coveredbranches="10" totalbranches="10" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Domain.Recipe.PreparedRecipe" coveredlines="21" coverablelines="21" totallines="37" coveredbranches="2" totalbranches="2" coveredcodeelements="8" totalcodeelements="8" />
+    <class name="NutritionalKitchen.Domain.Recipe.PreparedRecipeFactory" coveredlines="15" coverablelines="15" totallines="37" coveredbranches="8" totalbranches="8" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Domain.Recipe.Recipe" coveredlines="19" coverablelines="19" totallines="38" coveredbranches="4" totalbranches="4" coveredcodeelements="6" totalcodeelements="6" />
+    <class name="NutritionalKitchen.Domain.Recipe.RecipeFactory" coveredlines="12" coverablelines="12" totallines="32" coveredbranches="6" totalbranches="6" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Domain.Shared.QuantityValue" coveredlines="14" coverablelines="14" totallines="33" coveredbranches="4" totalbranches="4" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="RecipeIngredient" coveredlines="21" coverablelines="21" totallines="33" coveredbranches="7" totalbranches="8" coveredcodeelements="7" totalcodeelements="7" />
+  </assembly>
+  <assembly name="NutritionalKitchen.Infraestructura">
+    <class name="NutritionalKitchen.Infraestructura.DomainModel.config.IngredientsConfig" coveredlines="8" coverablelines="8" totallines="28" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Infraestructura.DomainModel.config.KitchenManagerConfig" coveredlines="10" coverablelines="10" totallines="32" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Infraestructura.DomainModel.config.LabelConfig" coveredlines="16" coverablelines="16" totallines="42" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Infraestructura.DomainModel.config.PackageConfig" coveredlines="12" coverablelines="12" totallines="35" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Infraestructura.DomainModel.config.RecipeConfig" coveredlines="10" coverablelines="10" totallines="30" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Infraestructura.DomainModel.DomainDbContext" coveredlines="7" coverablelines="12" totallines="31" coveredbranches="0" totalbranches="0" coveredcodeelements="5" totalcodeelements="7" />
+    <class name="NutritionalKitchen.Infraestructura.Extensions" coveredlines="0" coverablelines="20" totallines="49" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="NutritionalKitchen.Infraestructura.Handlers.GetIngredientsHandler" coveredlines="13" coverablelines="13" totallines="34" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Infraestructura.Handlers.GetKitchenManagerHandler" coveredlines="14" coverablelines="14" totallines="34" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Infraestructura.Handlers.GetLabelHandler" coveredlines="16" coverablelines="16" totallines="37" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Infraestructura.Handlers.GetPackageHandler" coveredlines="15" coverablelines="15" totallines="36" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Infraestructura.Handlers.GetRecipeHandler" coveredlines="14" coverablelines="14" totallines="35" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Infraestructura.Repositories.IngredientsRepository" coveredlines="18" coverablelines="20" totallines="48" coveredbranches="0" totalbranches="0" coveredcodeelements="5" totalcodeelements="6" />
+    <class name="NutritionalKitchen.Infraestructura.Repositories.KitchenManagerRepository" coveredlines="0" coverablelines="13" totallines="43" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="5" />
+    <class name="NutritionalKitchen.Infraestructura.Repositories.LabelRepository" coveredlines="0" coverablelines="12" totallines="42" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="5" />
+    <class name="NutritionalKitchen.Infraestructura.Repositories.PackageRepository" coveredlines="0" coverablelines="13" totallines="42" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="5" />
+    <class name="NutritionalKitchen.Infraestructura.Repositories.RecipeRepository" coveredlines="0" coverablelines="12" totallines="42" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="5" />
+    <class name="NutritionalKitchen.Infraestructura.Repositories.UnitOfWork" coveredlines="0" coverablelines="7" totallines="26" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Infraestructura.StoredModel.Entities.IngredientsStoredModel" coveredlines="2" coverablelines="2" totallines="24" coveredbranches="0" totalbranches="0" coveredcodeelements="2" totalcodeelements="2" />
+    <class name="NutritionalKitchen.Infraestructura.StoredModel.Entities.KitchenManagerStoredModel" coveredlines="3" coverablelines="3" totallines="30" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="NutritionalKitchen.Infraestructura.StoredModel.Entities.LabelStoredModel" coveredlines="6" coverablelines="6" totallines="39" coveredbranches="0" totalbranches="0" coveredcodeelements="6" totalcodeelements="6" />
+    <class name="NutritionalKitchen.Infraestructura.StoredModel.Entities.PackageStoredModel" coveredlines="4" coverablelines="4" totallines="35" coveredbranches="0" totalbranches="0" coveredcodeelements="4" totalcodeelements="4" />
+    <class name="NutritionalKitchen.Infraestructura.StoredModel.Entities.RecipeStoredModel" coveredlines="3" coverablelines="3" totallines="29" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="NutritionalKitchen.Infraestructura.StoredModel.StoredDbContext" coveredlines="3" coverablelines="8" totallines="25" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="6" />
+  </assembly>
+  <assembly name="NutritionalKitchen.WebApi">
+    <class name="NutritionalKitchen.WebApi.Controllers.IngredientsController" coveredlines="20" coverablelines="20" totallines="50" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="NutritionalKitchen.WebApi.Controllers.KitchenManagerController" coveredlines="20" coverablelines="20" totallines="52" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="NutritionalKitchen.WebApi.Controllers.LabelController" coveredlines="20" coverablelines="20" totallines="50" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="NutritionalKitchen.WebApi.Controllers.PackageController" coveredlines="20" coverablelines="20" totallines="52" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="NutritionalKitchen.WebApi.Controllers.RecipeController" coveredlines="20" coverablelines="20" totallines="52" coveredbranches="0" totalbranches="0" coveredcodeelements="3" totalcodeelements="3" />
+    <class name="Program" coveredlines="0" coverablelines="19" totallines="35" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="1" />
+  </assembly>
+</coverage>
