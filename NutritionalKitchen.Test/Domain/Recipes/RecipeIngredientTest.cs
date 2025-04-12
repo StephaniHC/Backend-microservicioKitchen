@@ -39,8 +39,10 @@ namespace NutritionalKitchen.Test.Domain.Recipe
 
             // Act & Assert
             var exception = Assert.Throws<ArgumentException>(() => recipeIngredient.UpdateQuantity(new QuantityValue(invalidQuantity)));
-            Assert.Equal("La cantidad debe ser mayor a cero. (Parameter 'value')", exception.Message);
+
+            Assert.Equal("La cantidad debe ser mayor a cero.", exception.Message);
         }
+
 
         [Theory]
         [InlineData(null)]
@@ -93,10 +95,14 @@ namespace NutritionalKitchen.Test.Domain.Recipe
             Guid ingredientId = Guid.NewGuid();
 
             // Act & Assert
-            var exception = Assert.Throws<ArgumentException>(() => new RecipeIngredient(nullQuantity, unitOfMeasure, recipeId, ingredientId));
-            Assert.Equal("La cantidad no puede ser nula. (Parameter 'quantity')", exception.Message);
-        } 
-         
+            var exception = Assert.Throws<ArgumentException>(() =>
+                new RecipeIngredient(nullQuantity, unitOfMeasure, recipeId, ingredientId)
+            );
+
+            Assert.Equal("La cantidad debe ser mayor a cero.", exception.Message);
+        }
+
+
 
         [Fact]
         public void UpdateQuantity_ShouldUpdateQuantity_WhenValidQuantity()

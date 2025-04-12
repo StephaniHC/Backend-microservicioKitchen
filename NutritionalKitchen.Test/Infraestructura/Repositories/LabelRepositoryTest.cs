@@ -21,12 +21,10 @@ namespace NutritionalKitchen.Test.Infraestructura.Repositories
 
         public LabelRepositoryTest()
         {
-            var options = new DbContextOptions<DomainDbContext>();
-            _dbContext = new Mock<DomainDbContext>(options);
-             
-            _labelDbSet = new Mock<DbSet<Label>>();
-            _dbContext.Setup(x => x.Set<Label>()).Returns(_labelDbSet.Object);
-            _dbContext.Setup(x => x.Label).ReturnsDbSet(new List<Label>());  
+            _dbContext = new Mock<DomainDbContext>(new DbContextOptions<DomainDbContext>());
+
+            var labelList = new List<Label>();
+            _dbContext.Setup(x => x.Label).ReturnsDbSet(labelList);
 
             _repository = new LabelRepository(_dbContext.Object);
         }
@@ -41,7 +39,7 @@ namespace NutritionalKitchen.Test.Infraestructura.Repositories
             await _repository.AddAsync(label);
 
             // Assert
-            _labelDbSet.Verify(x => x.AddAsync(label, It.IsAny<CancellationToken>()), Times.Once);
+            _dbContext.Verify(x => x.Label.AddAsync(label, It.IsAny<CancellationToken>()), Times.Once);
         }
     }
 }

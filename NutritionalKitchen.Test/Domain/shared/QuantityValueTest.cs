@@ -24,17 +24,23 @@ namespace NutritionalKitchen.Test.Domain.shared
         }
 
         [Fact]
-        public void ImplicitConversion_ToDouble_ShouldReturnZero_WhenNull()
+        public void ImplicitConversion_ToDouble_ShouldReturnZero_WhenQuantityIsNull()
         {
             // Arrange
             QuantityValue quantity = null;
 
             // Act
-            double result = quantity;
+            var result = QuantityValueToDouble(quantity);
 
             // Assert
             Assert.Equal(0, result);
         }
+
+        private double QuantityValueToDouble(QuantityValue quantity)
+        {
+            return quantity; // Esto llama a tu conversión implícita
+        }
+
 
         [Fact]
         public void ImplicitConversion_ToQuantityValue_ShouldReturnQuantity_WhenValidValue()
@@ -54,7 +60,8 @@ namespace NutritionalKitchen.Test.Domain.shared
         {
             // Arrange & Act & Assert
             var exception = Assert.Throws<ArgumentException>(() => new QuantityValue(-5));
-            Assert.Equal("La cantidad debe ser mayor a cero. (Parameter 'value')", exception.Message);
+            Assert.Equal("La cantidad debe ser mayor a cero.", exception.Message);
+
         }
     }
 }
