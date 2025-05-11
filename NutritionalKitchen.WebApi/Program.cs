@@ -3,6 +3,7 @@ using NutritionalKitchen.Domain.Package;
 using NutritionalKitchen.Infraestructura;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseSentry();
 
 // Add services to the container.
 builder.Services.AddInfrastructure(builder.Configuration);

@@ -24,13 +24,14 @@ namespace NutritionalKitchen.WebApi.Controllers
         {
             try
             {
-                var id = await _mediator.Send(command);
-
+                SentrySdk.CaptureMessage("Request executed successfully.");
+                var id = await _mediator.Send(command); 
                 return Ok(id);
 
             }
             catch (Exception ex)
             {
+                SentrySdk.CaptureException(ex);
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
@@ -40,11 +41,13 @@ namespace NutritionalKitchen.WebApi.Controllers
         {
             try
             {
+                SentrySdk.CaptureMessage("Request executed successfully.");
                 var result = await _mediator.Send(new GetRecipeQuery(""));
                 return Ok(result);
             }
             catch (Exception ex)
             {
+                SentrySdk.CaptureException(ex);
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
