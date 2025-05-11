@@ -13,4 +13,4 @@ namespace NutritionalKitchen.WebApi.Controllers
             return Redirect("/swagger");
         }
     }
-} 
+}
