@@ -27,11 +27,11 @@ jobs:
               StrictHostKeyChecking no
           END
       - name: Stop the server
-        run: ssh staging 'sudo systemctl stop nutritional-kitchen.service'
+        run: ssh staging 'sudo systemctl stop nutritional_kitchen.service'
 
       - name: Do deploy
         run: ssh staging 'cd /var/www/Backend-microservicioKitchen/ && bash deploy.sh'
       - name: Start the server
         if: ${{ always() }}
-        run: ssh staging 'sudo systemctl start nutritional-kitchen.service'
+        run: ssh staging 'sudo systemctl start nutritional_kitchen.service'
         
