@@ -5,17 +5,27 @@ using NutritionalKitchen.Infraestructura;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddInfrastructure(builder.Configuration); 
+builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "Kitchen Nutrition Microservice",
+        Version = "v1.0",
+        Description = "API para administrar recetas, menús y requerimientos nutricionales."
+    });
+});
+
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 app.UseSwagger();
+
 app.UseSwaggerUI();
 
 
