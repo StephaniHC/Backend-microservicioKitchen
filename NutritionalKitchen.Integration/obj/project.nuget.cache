@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SQSyvfHBKbc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\steph\\Documents\\DiploNur\\6toModulo\\proyecto final\\Backend-microservicioKitchen\\NutritionalKitchen.Integration\\NutritionalKitchen.Integration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\steph\\.nuget\\packages\\joseco.communication.external.contracts\\1.0.1\\joseco.communication.external.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

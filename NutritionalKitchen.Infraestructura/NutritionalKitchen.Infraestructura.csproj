@@ -1,12 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Joseco.Communication.External.RabbitMQ" Version="1.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.20">
       <PrivateAssets>all</PrivateAssets>
@@ -17,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NutritionalKitchen.Application\NutritionalKitchen.Application.csproj" />
+    <ProjectReference Include="..\NutritionalKitchen.Integration\NutritionalKitchen.Integration.csproj" />
   </ItemGroup>
 
 </Project>

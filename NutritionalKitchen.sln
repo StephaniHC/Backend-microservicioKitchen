@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutritionalKitchen.Infraest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutritionalKitchen.WebApi", "NutritionalKitchen.WebApi\NutritionalKitchen.WebApi.csproj", "{53EA5EC7-7587-461B-990E-CD5BF591D98C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutritionalKitchen.Test", "NutritionalKitchen.Test\NutritionalKitchen.Test.csproj", "{100690D1-97DA-479B-86F1-CB68A7A14BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutritionalKitchen.Test", "NutritionalKitchen.Test\NutritionalKitchen.Test.csproj", "{100690D1-97DA-479B-86F1-CB68A7A14BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutritionalKitchen.Integration", "NutritionalKitchen.Integration\NutritionalKitchen.Integration.csproj", "{1B29F9CC-045B-4FB8-8A77-C61CF5FBC664}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{100690D1-97DA-479B-86F1-CB68A7A14BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{100690D1-97DA-479B-86F1-CB68A7A14BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{100690D1-97DA-479B-86F1-CB68A7A14BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B29F9CC-045B-4FB8-8A77-C61CF5FBC664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B29F9CC-045B-4FB8-8A77-C61CF5FBC664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B29F9CC-045B-4FB8-8A77-C61CF5FBC664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B29F9CC-045B-4FB8-8A77-C61CF5FBC664}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

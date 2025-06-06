@@ -1,0 +1,13 @@
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\bin\Debug\net8.0\NutritionalKitchen.Integration.deps.json
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\bin\Debug\net8.0\NutritionalKitchen.Integration.dll
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\bin\Debug\net8.0\NutritionalKitchen.Integration.pdb
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\obj\Debug\net8.0\NutritionalKitchen.Integration.csproj.AssemblyReference.cache
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\obj\Debug\net8.0\NutritionalKitchen.Integration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\obj\Debug\net8.0\NutritionalKitchen.Integration.AssemblyInfoInputs.cache
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\obj\Debug\net8.0\NutritionalKitchen.Integration.AssemblyInfo.cs
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\obj\Debug\net8.0\NutritionalKitchen.Integration.csproj.CoreCompileInputs.cache
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\obj\Debug\net8.0\NutritionalKitchen.Integration.sourcelink.json
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\obj\Debug\net8.0\NutritionalKitchen.Integration.dll
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\obj\Debug\net8.0\refint\NutritionalKitchen.Integration.dll
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\obj\Debug\net8.0\NutritionalKitchen.Integration.pdb
+C:\Users\stephani.heredia\Downloads\Armar\Backend-microservicioKitchen\NutritionalKitchen.Integration\obj\Debug\net8.0\ref\NutritionalKitchen.Integration.dll
